@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener {
                     if($sender->hasPermission("payall.use")) {
                         
                         if(!isset($args[0])) {
-                            $sender->sendMessage("§cNutze:§8 /payall §8<Anzahl>");
+                            $sender->sendMessage("§cUse:§8 /payall §8<Anzahl>");
                             return false;
                         }
                         
