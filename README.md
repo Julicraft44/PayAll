@@ -1,2 +1,4 @@
 # PayAll
-Send money to the whole server - depend on EconomyAPI
+PayAll is a simple plugin to gift the whole server money.
+
+Simply run /payall <Amount>
