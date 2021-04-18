@@ -12,7 +12,6 @@ class Main extends PluginBase implements Listener {
     
     public function onEnable() {
         $this->saveDefaultConfig();
-        $this->getLogger()->info("PayAll loaded");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
     
@@ -23,7 +22,7 @@ class Main extends PluginBase implements Listener {
                     if($sender->hasPermission("payall.use")) {
                         
                         if(!isset($args[0])) {
-                            $sender->sendMessage("§cNutze:§8 /payall §8<Anzahl>");
+                            $sender->sendMessage("Â§cNutze:Â§8 /payall Â§8<Anzahl>");
                             return false;
                         }
                         
