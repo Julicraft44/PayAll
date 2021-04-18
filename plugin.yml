@@ -1,0 +1,14 @@
+name: PayAll
+main: Julicraft_44\PayAll\Main
+version: 1.0.0
+api: 3.0.0
+author: Julicraft_44
+
+commands:
+    payall:
+        description: Pay to all players
+        permission: payall.use
+permissions:
+    payall.use:
+        description: Permission to send money to the whole server
+        default: true

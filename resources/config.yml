@@ -1,0 +1,5 @@
+you-got-money: §l§a%sender hat jeden Spieler %amount$ geschenkt
+you-send-money: §cDu hast jedem Spieler %amount$ geschenkt.
+no-perm: §cDu hast keine Rechte auf diesen Befehl
+no-money: §cDu hast nicht genügend Geld um den ganzen Server ein Geschenk zu machen
+numeric: §cIch glaube nicht, dass du Buchstaben und Sonderzeichen verschicken kannst
