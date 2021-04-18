@@ -1,5 +1,13 @@
-you-got-money: §l§a%sender hat jeden Spieler %amount$ geschenkt
-you-send-money: §cDu hast jedem Spieler %amount$ geschenkt.
-no-perm: §cDu hast keine Rechte auf diesen Befehl
-no-money: §cDu hast nicht genügend Geld um den ganzen Server ein Geschenk zu machen
-numeric: §cIch glaube nicht, dass du Buchstaben und Sonderzeichen verschicken kannst
+#%sender: Who send the server money
+#%amount: How much everyone got
+
+#Broadcasting to everyone this message
+you-got-money: §l§a%sender gifted %amount$ to all players
+#Send this message to the person who gifted money
+you-send-money: §cYou have gifted %amount$ to everyone
+#Send this message if the executor have no permission
+no-perm: §cYou have no permission to run this command
+#If the executor have not enough money
+no-money: §cYou do not have enought money to do that
+#If the input is not numeric
+numeric: §cI do not think that you can use the alphabet or special character
