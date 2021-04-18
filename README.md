@@ -1,6 +1,7 @@
 # PayAll
 [![](https://poggit.pmmp.io/shield.api/PayAll)](https://poggit.pmmp.io/p/PayAll) 
 [![](https://poggit.pmmp.io/shield.state/PayAll)](https://poggit.pmmp.io/p/PayAll)
+
 PayAll is a simple plugin to gift the whole server money.
 
 Simply run /payall Amount
