@@ -22,14 +22,14 @@ class Main extends PluginBase implements Listener {
                     if($sender->hasPermission("payall.use")) {
                         
                         if(!isset($args[0])) {
-                            $sender->sendMessage("§cUse:§8 /payall §8<Anzahl>");
+                            $sender->sendMessage("§cUse:§8 /payall §8<money count per player>");
                             return false;
                         }
                         
                         if($args[0]) {
                             if(is_numeric($args[0])) {
                                 $op = count($this->getServer()->getOnlinePlayers()); 
-                                $tp = ($args[0] * $op - 1);
+                                $tp = $args[0] * ($op - 1);
                                 $name = $sender->getName();
                                 if($tp <= EconomyAPI::getInstance()->myMoney($sender)) {
                                     foreach ($this->getServer()->getOnlinePlayers() as $p) {
